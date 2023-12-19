@@ -1,0 +1,150 @@
+.intro_parent {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+.bg-1 {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+
+}
+
+.bg-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("https://images.pexels.com/photos/3775554/pexels-photo-3775554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    opacity: 0.8;
+
+    z-index: -1;
+}
+
+.bg-2 {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.bg-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("https://images.pexels.com/photos/906006/pexels-photo-906006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.bg-3 {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.bg-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("https://images.pexels.com/photos/3763995/pexels-photo-3763995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    opacity: 0.8;
+
+
+    z-index: -1;
+}
+
+.intro_parent>div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.intro_parent>div>h2 {
+    font-size: 2.5rem;
+    color: black;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.intro_parent>div>p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.intro_parent>div>button {
+    padding: 1rem 2rem;
+
+    outline: none;
+    border: none;
+    color: white;
+    background: orange;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+
+    filter: drop-shadow(20px 20px 20px yellow)
+}
+
+.intro_parent>div>button:hover {
+    border: 2px solid orange;
+    background: transparent;
+    /* color: gray; */
+    font-weight: bold;
+
+}
+
+@media (max-width: 768px) {
+    .bg-1 {
+        display: flex;
+        width: 100%;
+        height: 85vh;
+
+    }
+
+    .bg-2 {
+        display: flex;
+        width: 100%;
+        height: 85vh;
+
+    }
+
+    .bg-3 {
+        display: flex;
+        width: 100%;
+        height: 85vh;
+
+    }
+
+    .intro_parent>div>h2 {
+        padding-top: 1rem;
+    }
+}

@@ -1,0 +1,53 @@
+.navBarMotion {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+    margin-top: 2rem;
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+
+.motion_nav_styles {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+
+}
+
+.motion_nav_styles li {
+    list-style: none;
+    font-size: 1rem;
+    color: orange;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+.motion_nav_styles li:hover {
+    color: red;
+}
+
+.motion_nav_styles li:nth-child(9) {
+    padding: 13px 1rem;
+    outline: none;
+    border: 1px solid #FCA61F;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: #FCA61F;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+
+}
+
+.motion_nav_styles li:nth-child(9):hover {
+    background: transparent;
+    color: gray;
+
+}

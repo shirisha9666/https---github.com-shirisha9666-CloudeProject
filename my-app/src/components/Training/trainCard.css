@@ -1,0 +1,69 @@
+.train_care_parent {
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+
+    /* border: 2px solid red; */
+}
+
+.train_care_parent:hover {
+    filter: drop-shadow(10px 10px 10px yellow);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.train_care_parent>div {
+    text-align: center;
+}
+
+.train_care_parent>div>img {
+    width: 400px;
+    height: 200px;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.train_care_parent>div>h1 {
+    color: white;
+    text-align: center;
+}
+
+.train_icon>button {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.train_icon>button:hover {
+    background-color: rgb(146, 234, 146);
+    color: white;
+    font-weight: bold;
+}
+
+.icon_parent {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon_parent>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding-top: 1rem;
+    cursor: pointer;
+}

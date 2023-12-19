@@ -1,0 +1,48 @@
+.faculte_parent {
+    height: 65vh;
+}
+
+.faculte_parent_child_1 {
+    text-align: center;
+}
+
+.faculte_parent_child_1>h1 {
+    font-size: 2.5rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.faculte_parent_child_1>p {
+    font-size: 1rem;
+    color: gray;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+
+.faculte_parent_child_2 {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    /* background-color: orange; */
+}
+
+@media (max-width: 991px) {
+    .faculte_parent_child_2 {
+        width: auto;
+        padding: 0 1rem;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .faculte_parent_child_2 {
+        width: 100%;
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,37 @@
+.intro_parent>div>button {
+    margin-top: 5rem;
+}
+
+@media (max-width: 991px) {
+    .intro_parent>div>h2 {
+        font-size: 3rem;
+
+    }
+
+    .intro_parent>div>p {
+        font-size: 1rem;
+        padding-bottom: 10rem;
+
+    }
+
+    /* .intro_parent>div>button {
+        margin-top: 2rem;
+
+    } */
+}
+
+@media (max-width: 768px) {
+    .intro_parent>div>h2 {
+        font-size: 2rem;
+    }
+
+    .intro_parent>div>button {
+        margin-top: 5rem;
+    }
+
+    .intro_parent>div>p {
+        font-size: 1rem;
+        padding-bottom: 10rem;
+
+    }
+}

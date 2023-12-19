@@ -1,0 +1,134 @@
+.footer_parent {
+    display: grid;
+    grid-template-columns: 42rem auto 22rem;
+    width: 100%;
+    height: auto;
+    background-image: url("../images/wave\ -\ Copy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 13rem;
+    position: relative;
+
+}
+
+.left_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: white;
+    padding-left: 4rem;
+    text-align: left;
+}
+
+.left_footer>h2 {
+    font-size: 2rem;
+
+}
+
+
+
+.left_footer>p {
+    font-size: 1.2rem;
+
+
+}
+
+.middle_footer {
+    text-align: left;
+    padding-left: 5rem;
+    color: white;
+}
+
+.middle_footer>h2 {
+    font-size: 2rem;
+}
+
+ul>li {
+    list-style: none;
+    padding-top: 1rem;
+    display: flex;
+    gap: 5px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+ul>li>a:hover {
+    color: rgb(185, 124, 10);
+}
+
+.right_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: white;
+    padding-left: 4rem;
+    text-align: left;
+
+
+}
+
+.right_footer>button {
+    padding: 1rem 4rem;
+    outline: none;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.right_footer>div {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+
+}
+
+.right_footer>div>button {
+    padding: 1rem 1.2rem;
+
+    outline: none;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.right_footer>h2 {
+    font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+    .footer_parent {
+        grid-template-columns: 20rem auto 10rem;
+        height: auto;
+        margin: 0;
+
+        padding-top: 23rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer_parent {
+        grid-template-columns: auto;
+        height: auto;
+        padding-top: 40rem;
+        gap: 2rem;
+
+
+
+    }
+}

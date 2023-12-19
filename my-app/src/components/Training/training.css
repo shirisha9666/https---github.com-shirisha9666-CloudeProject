@@ -1,0 +1,47 @@
+.train_parent {
+    height: 80vh;
+
+}
+
+.train_child_1 {
+    text-align: center;
+}
+
+.train_child_1>h1 {
+    font-size: 2.5rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.train_child_1>p {
+    font-size: 1.5rem;
+    color: gray;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.train_child_2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 991px) {
+    .train_parent {
+        height: 70vh;
+
+    }
+
+    .train_child_2 {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .train_parent {
+        height: 130vh;
+
+    }
+}

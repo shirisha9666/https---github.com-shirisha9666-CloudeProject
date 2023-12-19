@@ -1,0 +1,77 @@
+.facult_card>.facult_images {
+
+    border-top-right-radius: 10px;
+
+    border-top-left-radius: 10px;
+
+}
+
+.facult_card>div>img {
+
+    height: 200px;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+
+}
+
+.facult_card {
+    /* height: 400px; */
+    width: 300px;
+}
+
+.facult_heading {
+    background-color: orange;
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 10px;
+}
+
+.facult_heading>h2 {
+    padding-bottom: 10px;
+
+}
+
+@media (max-width: 991px) {
+    .facult_heading {
+        width: 85%;
+    }
+
+    .facult_heading>h2 {
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+    .facult_card>div>img {
+        width: 85%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .facult_card>.facult_images>img {
+        width: 150px;
+        height: 100px;
+        background-color: orange;
+    }
+
+    .facult_heading>p {
+        font-size: 10px;
+        /* text-align: center; */
+
+    }
+
+    .facult_heading {
+        text-align: center;
+    }
+
+    .facult_heading {
+        width: 50%;
+    }
+
+}
